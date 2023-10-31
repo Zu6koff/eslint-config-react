@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-zu6koff-react",
+  "version": "0.0.0",
+  "description": "eslint config for react",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "zu6koff",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "scripts": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "license": "ISC"
+}
